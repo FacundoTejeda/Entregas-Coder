@@ -562,3 +562,15 @@ header{
         width: 100%;
     }
 } 
+/******************** SECCION ANIMACIONES Y TRANSICIONES ********************/
+.navbar{
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+}
+
+.navbar:hover{
+    background-color: rgba(255, 255, 255, 0);
+    transform:skewX(15deg)   
+    
+}
