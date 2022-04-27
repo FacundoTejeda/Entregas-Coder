@@ -46,9 +46,7 @@ header{
     color: white;
     padding: 10px 10px;
 }
-.navbar ul li a:hover{
-    background-color: rgb(5, 116, 5);
-}
+
 
 @media screen and (min-width:320px) {
     .navbar {
@@ -293,7 +291,7 @@ header{
         align-items: baseline;  
 }
 .table{
-        background-color: ;
+        background-color:rgba(255, 255, 255, 0.361) ;
         color: rgb(0, 0, 0);
         font-size: 20px; 
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;          
@@ -568,9 +566,10 @@ header{
         transition-duration: 0.5s;
         transition-timing-function: ease-in-out;
 }
-
 .navbar:hover{
-    background-color: rgba(255, 255, 255, 0);
-    transform:skewX(15deg)   
-    
+        transform: skew(10deg);
+}
+.navbar ul li a:hover{
+    background-color:rgba(255, 255, 255, 0.664);
+ 
 }
