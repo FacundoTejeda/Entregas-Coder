@@ -596,3 +596,8 @@ header{
         }
 }
 
+.conteiner img:hover{
+                height: 400px; 
+                width: 400px;
+}
+
