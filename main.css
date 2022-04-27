@@ -575,7 +575,7 @@ header{
 
 .container img{
             animation-name: animacion-uno;
-            animation-iteration-count:initial
+            animation-iteration-count:initial;
             animation-timing-function: ease-in-out;
             animation-duration: 3s;
             animation-delay: 0.5s;
