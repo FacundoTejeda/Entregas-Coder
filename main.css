@@ -46,6 +46,8 @@ header{
     color: white;
     padding: 10px 10px;
 }
+.navbar-toggler-icon{background-color: white;
+}
 
 
 @media screen and (min-width:320px) {
@@ -132,7 +134,8 @@ header{
     justify-content: center;
 }
 .inicio .inicio-video .inicio-video-texto{ 
-    width:calc(50% - 20px);    
+    width:calc(50% - 20px);   
+     
 }
 .inicio .inicio-video .inicio-video-video{ 
     width:calc(50% - 20px);
