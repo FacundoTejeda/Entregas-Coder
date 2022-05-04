@@ -11,9 +11,12 @@ a{
     color: rgb(0, 0, 0);
     width:max-content;      
 }
+
 .container{
-    max-width:1024px;
-    margin:0px auto;      
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
 }
 
 /**************** NAVBAR ****************/
@@ -132,6 +135,7 @@ header{
     display:flex;
     flex-direction:row;
     justify-content: center;
+    
 }
 .inicio .inicio-video .inicio-video-texto{ 
     width:calc(50% - 20px);   
@@ -139,10 +143,11 @@ header{
 }
 .inicio .inicio-video .inicio-video-video{ 
     width:calc(50% - 20px);
+   
 }
 .inicio .inicio-video .inicio-video-video video{ 
-    width:auto;
-    height:auto;
+    width:400px;
+    height: 700px;
 }
 .inicio-video-texto{
     display: flex;
@@ -244,80 +249,33 @@ header{
         margin: auto;
         font-size: 20px;
 }
-/* 
-.products{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-  }
 
-.products{
-         background-color: none;
-        color: black;
-        font-size: 30px;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        text-align: center;
-        padding: 15px 15px;
-        margin: 10px 10px;
-}
-
-.cardconteiner{
-        display: flex;
-        justify-content: center;
-      }
-.product1{
-    background-color:rgba(255, 255, 255, 0.361) ;
-       color: black;      
-       font-size: 20px;
-}
-.product2 {
-    background-color:rgba(255, 255, 255, 0.361) ;
-    color: black;      
-    font-size: 20px;
-}
-.product3{
-    background-color:rgba(255, 255, 255, 0.361) ;
-       color: black;      
-       font-size: 20px;
-}
-.product4{
-    background-color:rgba(255, 255, 255, 0.361) ;
-       color: black;      
-       font-size: 20px;
-} 
-
-.products{
-    text-align: center;
-}
- */
 .prod1{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-left: 5rem;
+    margin-left: 7rem;
 }
 .prod2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-left: 5rem;
+    margin-left: 7rem;
     margin-top: 3rem ;
 }
 .prod3{   
-    margin-left: 23rem;
+    margin-left: 25rem;
     margin-top: 3rem; 
 }
-@media screen {
-    
-}
+
 
 .tabla{
     display:flex;
         justify-content: center;
-        align-items: baseline;  
-}
+        align-items: center;  
+ }
 .table{
         background-color:rgba(255, 255, 255, 0.361) ;
         color: rgb(0, 0, 0);
