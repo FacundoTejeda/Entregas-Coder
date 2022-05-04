@@ -244,11 +244,13 @@ header{
         margin: auto;
         font-size: 20px;
 }
+/* 
 .products{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: start;
-}
+  }
+
 .products{
          background-color: none;
         color: black;
@@ -286,6 +288,29 @@ header{
 
 .products{
     text-align: center;
+}
+ */
+.prod1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5rem;
+}
+.prod2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5rem;
+    margin-top: 3rem ;
+}
+.prod3{   
+    margin-left: 23rem;
+    margin-top: 3rem; 
+}
+@media screen {
+    
 }
 
 .tabla{
