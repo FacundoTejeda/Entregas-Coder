@@ -9,26 +9,28 @@ header{
     top:0;
 }
 
-.navbar ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    list-style: none;  
-    padding:0px;
-    margin:0px;
-}
-.navbar ul li {
-    border: none;
-    font-size: 14px;
-    margin-left: 20px; 
-    width: auto;
-}
-.navbar ul li a{
-    color: $colorletrasnavbar;
-    padding: 10px 10px;
-}
+.navbar{
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                list-style: none;  
+                padding:0px;
+                margin:0px;
+                li {
+                    border: none;
+                    font-size: 14px;
+                    margin-left: 20px; 
+                    width: auto;
+                a{
+                color: $colorletrasnavbar;
+                padding: 10px 10px;
+                }            
+            }
+        }
 .navbar-toggler-icon{background-color: $colorletrasnavbar;
+}
 }
 .navbaritems{
     font-size: 20px;

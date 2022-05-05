@@ -1,0 +1,158 @@
+/**************** SECCION PRODUCTOS ****************/
+
+.conteiner{
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        max-height: 500px;
+        margin: auto;
+        font-size: 20px;
+
+                    img{
+                        width: 200px; 
+                    }
+}
+
+.prod1{
+    display: $productsdisplay
+    margin-left $productsmedle;
+}
+.prod2{
+    display: $productsdisplay;
+    margin-left: $productsmedle; 
+    margin-top: $productsmedtop;
+}
+.prod3{   
+    margin-left: 25rem;
+    margin-top: $productsmedtop ; 
+}
+
+.tabla{
+    display:flex;
+        justify-content: center;
+        align-items: center;  
+ }
+.table{
+        background-color:rgba(255, 255, 255, 0.361) ;
+        color: rgb(0, 0, 0);
+        font-size: 20px; 
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;          
+     }
+
+/**************** SECCION PRODUCTOS-GRID ****************/
+.gridproduct{
+        display: grid;
+        grid-template-areas: "headerproduct headerproduct"
+                            " products products "
+                            " tabla tabla"
+                            "footerproduct footerproduct";
+                       
+}
+.headerproduct{
+            grid-area: headerproduct;
+            width: 100%;
+            height: auto;
+        }
+        
+.products{
+        grid-area: products;
+        width: 100%;
+        height: auto;
+}
+.tabla{
+        grid-area: tabla;
+        width: 100%;
+        height: auto;
+}
+.footerproduct{
+        grid-area: footerproduct;
+}
+
+/**************** SECCION PRODUCTOS-RESPONSIVE ****************/
+@media screen and (min-width:320px){
+    .conteiner{
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .conteiner{
+            max-height: 1000px;
+            margin: auto;
+            font-size: 20px;
+    }
+    
+    .products{
+            background-color: none;
+            color: black;
+            font-size: 30px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 15px 15px;
+            margin: 30px 30px;            
+    }
+    .products{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    }    
+    .cardconteiner{
+            display: flex;
+            justify-content: center;
+    }       
+    .products{
+        text-align: center;
+    }    
+    .tabla{
+        display:flex;
+            justify-content: center;
+            align-items: baseline;  
+            margin-left: 18px;
+            border: gray;
+    }
+@media screen and (min-width:768px){
+        .conteiner{
+            display: flex; 
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .conteiner{
+                max-height: 1000px;
+                margin: auto;
+                font-size: 20px;
+        }        
+        .products{
+                background-color: none;
+                color: black;
+                font-size: 30px;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                padding: 15px 15px;
+                margin: 30px 30px;            
+        }
+        .products{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+        }        
+        .cardconteiner{
+                display: flex;
+                justify-content: center;
+        }
+           
+        .products{
+            text-align: center;
+        }
+        
+        .tabla{
+            display:flex;
+                justify-content: center;
+                align-items: baseline;  
+                margin-left: 18px;
+                border: gray;
+        }
+    }
+}
