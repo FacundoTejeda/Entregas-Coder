@@ -1,0 +1,63 @@
+.fotbar{
+    position:sticky;
+    z-index: 999;
+    width: 100%;
+    height:100%;
+    background: rgba(5, 103, 13, 0);
+    height: 0%;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    color: rgb(0, 0, 0)
+      
+     }
+.fotbar{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+       justify-content: space-around;     
+       
+}
+.fotbar{
+        list-style-type: none;
+        height: 100px;
+}
+
+.targetinsta{
+    background-color:rgba(243, 254, 248, 0.751) ;
+    list-style-type: none;
+    text-decoration: none;
+    width: max-content;
+    padding: 0px 3px 0px 0px;
+    list-style-type: none;
+    }
+.targetfacebook{
+    list-style-type: none;
+    text-decoration: none;
+    width: max-content;
+    padding: 0px 3px 0px 0px;
+    }
+.targetwhatsapp{
+    list-style-type: none;
+    text-decoration: none;
+    width: max-content;
+    padding: 0px 3px 0px 0px;
+    }
+.formcontact{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+       
+         input{
+        padding: 5px;    
+        margin-top: 10px;
+    }
+         textarea{
+         margin-top: 10px;
+}
+}
+.inputtype {
+    padding: 5px;
+    align-items: flex-end;
+}
+     

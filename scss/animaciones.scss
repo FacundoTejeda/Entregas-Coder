@@ -1,0 +1,41 @@
+/******************** SECCION ANIMACIONES Y TRANSICIONES ********************/
+.navbar{
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.navbar:hover{
+    transform: skew(10deg);
+}
+.navbar ul li a:hover{
+background-color:rgba(255, 255, 255, 0.664); 
+}
+
+.container img{
+        animation-name: animacion-uno;
+        animation-iteration-count:initial;
+        animation-timing-function: ease-in-out;
+        animation-duration: 3s;
+        animation-delay: 0.5s;
+}
+
+@keyframes animacion-uno{
+
+    0%{
+        width: 200px;
+    }
+    25%{
+        width: 100px;
+    }
+    75%{
+        width: 150px;
+    }
+    100%{
+        width: 650px;
+    }
+}
+
+.conteiner img:hover{
+            height: 400px; 
+            width: 400px;
+}

@@ -1,0 +1,52 @@
+/**************** SECCION QUIENES SOMOS-GRID ****************/
+
+.grid{
+    display: grid;
+    grid-template-areas: "encabezado encabezado "
+                          "cuerpo cuerpo "
+                            "pics pics "
+                          "pie pie ";
+} 
+.encabezado{
+grid-area: encabezado;
+width: 100%;
+height: auto;
+}
+.cuerpo{ 
+grid-area: cuerpo;
+width: 100%;
+height: auto;
+}
+.pics{
+grid-area: pics;
+display: flex;
+flex-wrap: wrap ;
+justify-content: space-between;
+width: 100vw ;
+}
+
+.pic{
+width: calc(50% - 20px);
+
+    img{
+    width: 100%;
+    height:auto;
+    }
+}
+.pie{
+grid-area: pie;
+width: 100%;
+height: auto;
+}
+
+/**************** SECCION QUIENES SOMOS-RESPONSIVE ****************/
+
+@media screen and (min-width:320px){
+.pics{
+        display: flex;
+        flex-direction: column;
+    }    
+.pic{
+    width: 100%;
+}
+} 
