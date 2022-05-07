@@ -15,11 +15,17 @@
 }
 
 .prod1{
-    display: $productsdisplay
-    margin-left $productsmedle;
+    display:flex; 
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    margin-left: $productsmedle;
 }
 .prod2{
-    display: $productsdisplay;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center;
     margin-left: $productsmedle; 
     margin-top: $productsmedtop;
 }

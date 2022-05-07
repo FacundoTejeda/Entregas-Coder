@@ -5,20 +5,10 @@ body {
   background-size: cover;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
-a {
-  text-decoration: none;
-  color: black;
-  width: max-content; }
-
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around; }
-
 /**************** SECCION INICIO ****************/
 .inicio .inicio-logo {
   text-align: center;
-  margin-top: 50px; }
+  margin-top: 100px; }
   .inicio .inicio-logo img {
     width: 100%;
     max-width: 640px; }
@@ -33,7 +23,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 30px; }
+  font-size: 90px; }
 
 .inicio .inicio-video .inicio-video-video {
   width: calc(50% - 20px); }
@@ -106,134 +96,27 @@ a {
 header {
   position: fixed;
   z-index: 999;
-  width: calc(100% - 40px);
+  width: 100%;
   background: #057405;
   padding: 20px;
-  color: #fff;
+  color: white;
   top: 0; }
 
-.navbar ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  padding: 0px;
-  margin: 0px; }
-  .navbar ul li {
-    border: none;
-    font-size: 14px;
-    margin-left: 20px;
-    width: auto; }
-    .navbar ul li a {
-      color: white;
-      padding: 10px 10px; }
+.navbar-toggler {
+  color: white; }
 
-.navbar .navbar-toggler-icon {
-  background-color: white; }
-
-.navbaritems {
-  font-size: 20px;
-  color: #323232; }
-
-@media screen and (min-width: 320px) {
-  .navbar {
-    height: auto; }
-  .navbar ul li {
-    font-size: 14px;
-    width: 100%; }
-  .navbar ul li a {
-    color: white;
-    padding: 5px 10px; }
-  .navbar ul li a:hover {
-    background-color: #057405; } }
-
-@media screen and (min-width: 768px) {
-  .navbar ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    padding: 0px;
-    margin: 0px; }
-  .navbar ul li {
-    width: auto;
-    border: none;
-    font-size: 14px;
-    margin-left: 20px; }
-  .navbar ul li a {
-    color: white;
-    padding: 10px 10px; }
-  .navbar ul li a:hover {
-    background-color: #057405; } }
-
-@media screen and (min-width: 1440px) {
-  .navbar ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    padding: 0px;
-    margin: 0px; }
-  .navbar ul li {
-    width: 100%;
-    border: none;
-    font-size: 14px;
-    margin-left: 20px; }
-  .navbar ul li a {
-    color: white;
-    padding: 10px 10px; }
-  .navbar ul li a:hover {
-    background-color: #057405; } }
-
-.fotbar {
-  position: sticky;
-  z-index: 999;
-  width: 100%;
-  height: 100%;
-  background: rgba(5, 103, 13, 0);
-  height: 0%;
-  top: 0%;
-  left: 0%;
-  right: 0%;
-  color: black; }
-
-.fotbar {
+.row {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: space-around; }
-
-.fotbar {
-  list-style-type: none;
-  height: 100px; }
-
-.targetinsta {
-  background-color: rgba(243, 254, 248, 0.751);
-  list-style-type: none;
-  text-decoration: none;
-  width: max-content;
-  padding: 0px 3px 0px 0px;
-  list-style-type: none; }
-
-.targetfacebook {
-  list-style-type: none;
-  text-decoration: none;
-  width: max-content;
-  padding: 0px 3px 0px 0px; }
-
-.targetwhatsapp {
-  list-style-type: none;
-  text-decoration: none;
-  width: max-content;
-  padding: 0px 3px 0px 0px; }
+  margin-left: 30px; }
 
 .formcontact {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  margin-top: 60px; }
   .formcontact input {
     padding: 5px;
     margin-top: 10px; }
@@ -298,10 +181,17 @@ header {
     width: 200px; }
 
 .prod1 {
-  display: display flex flex-direction row justify-content space-between align-items center margin-left margin-left 7rem; }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: margin-left 7rem; }
 
 .prod2 {
-  display: display flex flex-direction row justify-content space-between align-items center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   margin-left: margin-left 7rem;
   margin-top: margin-top 3rem; }
 
