@@ -190,7 +190,8 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-left: margin-left 7rem; }
+  margin-left: margin-left 7rem;
+  margin-top: margin-top 3rem; }
 
 .prod2 {
   display: flex;
