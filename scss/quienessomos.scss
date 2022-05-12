@@ -1,5 +1,9 @@
 .quienessomos{
-            font-size: 24px;
+    background-color:  rgba(243, 254, 248, 0.751);
+    color: black;
+    font-size: 22px; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border:solid
 }
 /**************** SECCION QUIENES SOMOS-GRID ****************/
 
@@ -12,13 +16,11 @@
 } 
 .encabezado{
 grid-area: encabezado;
-width: 100%;
-height: auto;
+@extend .quienesgrid;
 }
 .cuerpo{ 
 grid-area:cuerpo;
-width: 100%;
-height: auto;
+@extend .quienesgrid;
 }
 .pics{
 grid-area: pics;
@@ -32,14 +34,12 @@ width: 100vw ;
 width: calc(50% - 20px);
 
     img{
-    width: 100%;
-    height:auto;
+        @extend .quienesgrid;
     }
 }
 .pie{
 grid-area: pie;
-width: 100%;
-height: auto;
+@extend .quienesgrid;
 }
 
 /**************** SECCION QUIENES SOMOS-RESPONSIVE ****************/
