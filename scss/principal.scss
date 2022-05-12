@@ -1,7 +1,20 @@
 $colornavbar:rgb(5, 116, 5);
 $colorletrasnavbar: white;
-$productsmedle: margin-left 7rem;
-$productsmedtop: margin-top 3rem;
+$productsmedle: 7rem;
+$productsmedtop: 3rem;
+$redes:(whatsapp: #00bb2d,
+        facebook: #3b5998,
+        instagram:#970575,
+);
+@each $red, $color in $redes{
+    .red-#{$red} {
+        color:$color;
+    }    
+}
+
+
+
+
 @import"general.scss";
 @import"inicio.scss";
 @import"navbar.scss";
