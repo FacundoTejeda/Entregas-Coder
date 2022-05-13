@@ -1,3 +1,4 @@
+/**************** MAPAS ****************/
 .red-whatsapp {
   color: #00bb2d; }
 
@@ -7,6 +8,12 @@
 .red-instagram {
   color: #970575; }
 
+/**************** EXTEND ****************/
+.quienesgrid, .encabezado, .cuerpo, .pic img, .pie {
+  width: 100%;
+  height: auto; }
+
+/**************** MIXIN ****************/
 /**************** GENERAL ****************/
 body {
   background-image: url(../Entregas-Coder/images/fondoweb01.jpg);
@@ -57,7 +64,7 @@ body {
   max-width: 300px;
   margin: 20px 20px;
   font-size: 25px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  font-family: 'Calibri'; }
 
 .inicio .home {
   display: flex;
@@ -75,31 +82,31 @@ body {
   margin-top: 130px; }
 
 @media screen and (min-width: 320px) {
-  .inicio .inicio-video .container {
+  .inicio .inicio .inicio-video .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-  .inicio .inicio-video .inicio-video-texto {
+  .inicio .inicio .inicio-video .inicio-video-texto {
     width: 100%;
     margin-top: 20px;
     font-size: 30px; }
-  .inicio .inicio-video .inicio-video-video {
+  .inicio .inicio .inicio-video .inicio-video-video {
     width: auto; } }
 
 @media screen and (min-width: 768px) {
-  .inicio .inicio-video .container {
+  .inicio .inicio .inicio-video .container {
     display: flex;
     flex-direction: row;
     justify-content: center; }
-  .inicio .inicio-video .inicio-video-texto {
+  .inicio .inicio .inicio-video .inicio-video-texto {
     width: 100%;
     font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center; }
-  .inicio .inicio-video .inicio-video-video {
-    width: 70%; } }
+  .inicio .inicio .inicio-video .inicio-video-video {
+    width: 70; } }
 
 /**************** NAVBAR ****************/
 header {
@@ -139,29 +146,21 @@ header {
 .quienessomos {
   background-color: rgba(243, 254, 248, 0.751);
   color: black;
-  font-size: 22px;
+  font-size: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  border: solid; 
-  margin-top: 5rem;
-}
+  border: solid;
+  margin-top: 5rem; }
 
 /**************** SECCION QUIENES SOMOS-GRID ****************/
 .grid {
   display: grid;
-  grid-template-areas: "encabezado encabezado "
- "cuerpo cuerpo "
- "pics pics "
- "pie pie "; }
+  grid-template-areas: "encabezado encabezado " "cuerpo cuerpo " "pics pics " "pie pie "; }
 
 .encabezado {
-  grid-area: encabezado;
-  width: 100%;
-  height: auto; }
+  grid-area: encabezado; }
 
 .cuerpo {
-  grid-area: cuerpo;
-  width: 100%;
-  height: auto; }
+  grid-area: cuerpo; }
 
 .pics {
   grid-area: pics;
@@ -172,14 +171,9 @@ header {
 
 .pic {
   width: calc(50% - 20px); }
-  .pic img {
-    width: 100%;
-    height: auto; }
 
 .pie {
-  grid-area: pie;
-  width: 100%;
-  height: auto; }
+  grid-area: pie; }
 
 /**************** SECCION QUIENES SOMOS-RESPONSIVE ****************/
 @media screen and (min-width: 320px) {
@@ -235,10 +229,7 @@ header {
 /**************** SECCION PRODUCTOS-GRID ****************/
 .gridproduct {
   display: grid;
-  grid-template-areas: "headerproduct headerproduct"
- " products products "
- " tabla tabla"
- "footerproduct footerproduct"; }
+  grid-template-areas: "headerproduct headerproduct" " products products " " tabla tabla" "footerproduct footerproduct"; }
 
 .headerproduct {
   grid-area: headerproduct;

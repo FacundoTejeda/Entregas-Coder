@@ -6,13 +6,24 @@ $redes:(whatsapp: #00bb2d,
         facebook: #3b5998,
         instagram:#970575,
 );
+/**************** MAPAS ****************/
 @each $red, $color in $redes{
     .red-#{$red} {
         color:$color;
     }    
 }
-
-
+/**************** EXTEND ****************/
+.quienesgrid{
+    width: 100%;
+    height: auto;
+}
+/**************** MIXIN ****************/
+@mixin productosmix{
+                display:flex; 
+                flex-direction: row;
+                justify-content: space-between; 
+                align-items: center;
+            }
 
 
 @import"general.scss";
