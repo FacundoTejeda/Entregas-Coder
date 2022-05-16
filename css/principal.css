@@ -82,17 +82,23 @@ body {
   margin-top: 130px; }
 
 @media screen and (min-width: 320px) {
-  .inicio .inicio .inicio-video .container {
+  .inicio .inicio-video .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-  .inicio .inicio .inicio-video .inicio-video-texto {
+  .inicio .inicio-video .inicio-video-texto {
+
     width: 100%;
-    margin-top: 20px;
-    font-size: 30px; }
-  .inicio .inicio .inicio-video .inicio-video-video {
-    width: auto; } }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    font-size: 27px; }
+  .inicio  .inicio-video .inicio-video-video {
+    width: 100%;
+  height: 400px; } 
+}
 
 @media screen and (min-width: 768px) {
   .inicio .inicio .inicio-video .container {
