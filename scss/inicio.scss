@@ -19,6 +19,7 @@
             .inicio-video-texto{
                 width:calc(50% - 20px);
                 display: flex;
+               
                 justify-content: center;
                 align-items: center;
                 font-size: 27px;
@@ -75,8 +76,7 @@
 
 
 @media screen and (min-width:320px) {
-    .inicio{
-
+    .inicio{    
         .inicio-video {
             .container{
             display:flex;

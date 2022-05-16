@@ -154,7 +154,10 @@ header {
 /**************** SECCION QUIENES SOMOS-GRID ****************/
 .grid {
   display: grid;
-  grid-template-areas: "encabezado encabezado " "cuerpo cuerpo " "pics pics " "pie pie "; }
+  grid-template-areas: "encabezado encabezado "
+ "cuerpo cuerpo "
+ "pics pics "
+ "pie pie "; }
 
 .encabezado {
   grid-area: encabezado; }
@@ -231,7 +234,10 @@ header {
 /**************** SECCION PRODUCTOS-GRID ****************/
 .gridproduct {
   display: grid;
-  grid-template-areas: "headerproduct headerproduct" " products products " " tabla tabla" "footerproduct footerproduct"; }
+  grid-template-areas: "headerproduct headerproduct"
+ " products products "
+ " tabla tabla"
+ "footerproduct footerproduct"; }
 
 .headerproduct {
   grid-area: headerproduct;
