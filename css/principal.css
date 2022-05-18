@@ -1,3 +1,4 @@
+/**************** OPERABLES ****************/
 /**************** MAPAS ****************/
 .red-whatsapp {
   color: #00bb2d; }
@@ -108,7 +109,7 @@ body {
     justify-content: center;
     align-items: center; }
   .inicio .inicio .inicio-video .inicio-video-video {
-    width: 70; } }
+    width: 70px; } }
 
 /**************** NAVBAR ****************/
 header {

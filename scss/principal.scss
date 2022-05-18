@@ -6,6 +6,9 @@ $redes:(whatsapp: #00bb2d,
         facebook: #3b5998,
         instagram:#970575,
 );
+/**************** OPERABLES ****************/
+$numero:200px;
+
 /**************** MAPAS ****************/
 @each $red, $color in $redes{
     .red-#{$red} {
