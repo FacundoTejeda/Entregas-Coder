@@ -24,9 +24,10 @@
     margin-left: $productsmedle; 
     margin-top: $productsmedtop;
 }
-.prod3{   
-    margin-left: 25rem;
-    margin-top: $productsmedtop ; 
+.prod3{  
+        @include productosmix;
+        margin-left: $productsmedle; 
+        margin-top: $productsmedtop;    
 }
 
 .tabla{
