@@ -27,7 +27,11 @@ $numero:200px;
                 justify-content: space-between; 
                 align-items: center;
             }
-
+@mixin title {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;    
+}
 
 @import"general.scss";
 @import"inicio.scss";

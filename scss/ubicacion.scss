@@ -5,6 +5,9 @@
     justify-content: space-around;
     align-items: center;
   }
+  .titles{
+        @include title;
+  }
   /**************** SECCION UBICACION-RESPONSIVE ****************/
   @media screen and (min-width:320px){
       .ubication{
