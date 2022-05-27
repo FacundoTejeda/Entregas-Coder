@@ -23,89 +23,97 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
 /**************** SECCION INICIO ****************/
-.inicio {
-  /**************** MEDIA QUERIES ****************/ }
-  .inicio .inicio-logo {
-    text-align: center;
-    margin-top: 100px; }
-    .inicio .inicio-logo img {
-      width: 100%;
-      max-width: 640px; }
-  .inicio .inicio-video .container {
+.inicio .inicio-logo {
+  text-align: center;
+  margin-top: 100px; }
+  .inicio .inicio-logo img {
+    width: 100%;
+    max-width: 640px; }
+
+.inicio .inicio-video .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.inicio .inicio-video .inicio-video-texto {
+  width: calc(50% - 20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 27px; }
+
+.inicio .inicio-video .inicio-video-video {
+  width: calc(50% - 20px); }
+  .inicio .inicio-video .inicio-video-video video {
+    width: 400px;
+    height: 700px; }
+
+.inicio .titulo {
+  background-color: rgba(243, 254, 248, 0.751);
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 100px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 20px;
+  margin: 20px;
+  border: 20px;
+  text-align: center; }
+
+.inicio .textinicial {
+  background-color: rgba(243, 254, 248, 0.751);
+  background-attachment: fixed;
+  padding: 20px 100px 20px 20px;
+  max-width: 300px;
+  margin: 20px 20px;
+  font-size: 25px;
+  font-family: 'Calibri'; }
+
+.inicio .home {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly; }
+
+.inicio .tituloproducto {
+  background-color: none;
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  padding: 5px 5px;
+  height: auto;
+  margin-top: 130px; }
+
+/**************** MEDIA QUERIES ****************/
+@media screen and (max-width: 425px) {
+  .inicio.inicio-video .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center; }
-  .inicio .inicio-video .inicio-video-texto {
-    width: calc(50% - 20px);
+  .inicio-video-texto {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 27px; }
-  .inicio .inicio-video .inicio-video-video {
-    width: calc(50% - 20px); }
-    .inicio .inicio-video .inicio-video-video video {
-      width: 400px;
-      height: 700px; }
-  .inicio .titulo {
-    background-color: rgba(243, 254, 248, 0.751);
-    color: rgba(0, 0, 0, 0.55);
-    font-size: 100px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 20px;
-    margin: 20px;
-    border: 20px;
-    text-align: center; }
-  .inicio .textinicial {
-    background-color: rgba(243, 254, 248, 0.751);
-    background-attachment: fixed;
-    padding: 20px 100px 20px 20px;
-    max-width: 300px;
-    margin: 20px 20px;
-    font-size: 25px;
-    font-family: 'Calibri'; }
-  .inicio .home {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly; }
-  .inicio .tituloproducto {
-    background-color: none;
-    color: rgba(0, 0, 0, 0.55);
-    font-size: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    padding: 5px 5px;
-    height: auto;
-    margin-top: 130px; }
-  @media screen and (min-width: 768px) {
-    .inicio .inicio .inicio-video .container {
-      display: flex;
-      flex-direction: row;
-      justify-content: center; }
-    .inicio .inicio .inicio-video .inicio-video-texto {
-      width: 100%;
-      font-size: 20px;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-    .inicio .inicio .inicio-video .inicio-video-video {
-      width: 70px; } }
+  .inicio-video-video {
+    width: 100%;
+    height: 400px; } }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 852px) {
   .inicio .inicio-video .container {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center; }
+  .inicio .inicio-video .inicio-video-video {
+    width: 100%; }
+  .inicio .inicio-video .inicio-video-video video {
+    width: 100%;
+    height: 400px; }
   .inicio .inicio-video .inicio-video-texto {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 27px;
-    margin-top: 1000px; }
-  .inicio .inicio-video .inicio-video-video {
-    width: 100%;
-    height: 400px; } }
+    font-size: 27px; } }
 
 /**************** NAVBAR ****************/
 header {
