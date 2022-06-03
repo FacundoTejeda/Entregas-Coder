@@ -17,7 +17,13 @@
 /**************** MIXIN ****************/
 /**************** GENERAL ****************/
 body {
-  background-image: url(../Entregas-Coder/images/fondoweb01.jpg);
+  background-image: url(../images/fondoweb01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+body {
+  background-image: url(../images/fondoweb01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
@@ -330,10 +336,7 @@ header {
 
 /**************** SECCION UBICACION ****************/
 .ubication {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center; }
+  margin-left: 15rem; }
 
 .titles {
   text-align: center !important; }
