@@ -1,6 +1,6 @@
 /**************** SECCION UBICACION ****************/
 .ubication{    
-    margin-left: 15rem;
+    margin:auto;
   }
   .titles{
            text-align: center !important;         
@@ -8,7 +8,7 @@
   /**************** SECCION UBICACION-RESPONSIVE ****************/
   @media screen and (min-width:320px){
       .ubication{
-              width: 320px;
+              width: auto;
       }    
   }
   @media screen and (min-width:768px){
