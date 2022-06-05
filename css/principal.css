@@ -137,7 +137,9 @@ header {
 .fotbar {
   background-color: #dd5d26;
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  width: 100vw;
+  left: 0; }
 
 .row {
   display: flex;
@@ -202,6 +204,13 @@ header {
     width: 100%; } }
 
 /**************** SECCION PRODUCTOS ****************/
+#primertitulo {
+  text-align: center !important;
+  margin-top: 19vh !important; }
+
+.center {
+  justify-content: center; }
+
 .conteiner {
   display: flex;
   align-items: center;
@@ -300,33 +309,25 @@ header {
     margin-left: 18px;
     border: gray; } }
 
-@media screen and (max-width: 425px) and (min-width: 768px) {
-  .conteiner {
+@media screen and (max-width: 425px) and (max-width: 768) {
+  .prod1 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
-  .conteiner {
-    max-height: 1000px;
-    margin: auto;
-    font-size: 20px; }
-  .products {
-    background-color: none;
-    color: black;
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 15px 15px;
-    margin: 30px 30px; }
-  .products {
+  .prod2 {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-items: center; }
-  .cardconteiner {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  .prod3 {
     display: flex;
-    justify-content: center; }
-  .products {
-    text-align: center; }
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
   .tabla {
     display: flex;
     justify-content: center;

@@ -1,5 +1,11 @@
 /**************** SECCION PRODUCTOS ****************/
 
+#primertitulo{ text-align: center !important;
+            margin-top: 19vh !important;
+}
+.center{
+        justify-content: center;
+}
 .conteiner{
         display: flex; 
         align-items: center;
@@ -106,41 +112,29 @@
             margin-left: 18px;
             border: gray;
     }
-@media screen and (min-width:768px){
-        .conteiner{
-            display: flex; 
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
-        .conteiner{
-                max-height: 1000px;
-                margin: auto;
-                font-size: 20px;
-        }        
-        .products{
-                background-color: none;
-                color: black;
-                font-size: 30px;
-                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                padding: 15px 15px;
-                margin: 30px 30px;            
-        }
-        .products{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-    
-        }        
-        .cardconteiner{
-                display: flex;
-                justify-content: center;
-        }
-           
-        .products{
-            text-align: center;
-        }
+@media screen and (max-width:768){
+    .prod1{
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .prod2{ 
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    .prod3{
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
         
         .tabla{
             display:flex;
