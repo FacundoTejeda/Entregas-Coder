@@ -1,24 +1,24 @@
 /**************** SECCION UBICACION ****************/
 .ubication{    
-    margin:auto;
+    margin-left: 20rem !important;
   }
   .titles{
-           text-align: center !important;         
+           text-align: center !important;      
+             
         }
   /**************** SECCION UBICACION-RESPONSIVE ****************/
   @media screen and (min-width:320px){
       .ubication{
               width: auto;
+              margin:auto;
       }    
   }
   @media screen and (min-width:768px){
       .ubication{
-              width: 768px;
+              width: auto;
+              margin:auto;
+            
       }    
   }
-  @media screen and (min-width:1024px){
-      .ubication{
-              width: 1024px;
-      }    
-  }
+
   

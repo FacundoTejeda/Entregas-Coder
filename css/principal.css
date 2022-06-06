@@ -138,8 +138,7 @@ header {
   background-color: #dd5d26;
   margin: 0px;
   padding: 0px;
-  width: 100vw;
-  left: 0; }
+  width: 100vw; }
 
 .row {
   display: flex;
@@ -337,7 +336,7 @@ header {
 
 /**************** SECCION UBICACION ****************/
 .ubication {
-  margin: auto; }
+  margin-left: 20rem !important; }
 
 .titles {
   text-align: center !important; }
@@ -345,15 +344,13 @@ header {
 /**************** SECCION UBICACION-RESPONSIVE ****************/
 @media screen and (min-width: 320px) {
   .ubication {
-    width: auto; } }
+    width: auto;
+    margin: auto; } }
 
 @media screen and (min-width: 768px) {
   .ubication {
-    width: 768px; } }
-
-@media screen and (min-width: 1024px) {
-  .ubication {
-    width: 1024px; } }
+    width: auto;
+    margin: auto; } }
 
 /******************** SECCION ANIMACIONES Y TRANSICIONES ********************/
 .navbar {
