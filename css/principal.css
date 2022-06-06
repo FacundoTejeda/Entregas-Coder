@@ -170,6 +170,10 @@ header {
   border: solid;
   margin-top: 5rem; }
 
+.carrusel {
+  height: 1000px;
+  width: 800px; }
+
 /**************** SECCION QUIENES SOMOS-GRID ****************/
 .grid {
   display: grid;
@@ -335,9 +339,6 @@ header {
     border: gray; } }
 
 /**************** SECCION UBICACION ****************/
-.ubication {
-  margin-left: 20rem !important; }
-
 .titles {
   text-align: center !important; }
 
