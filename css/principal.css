@@ -143,9 +143,23 @@ header {
 .row {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   margin-left: 200px; }
+
+@media screen and (max-width: 425px) {
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; } }
+
+@media screen and (max-width: 852px) {
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; } }
 
 .formcontact {
   display: flex;
