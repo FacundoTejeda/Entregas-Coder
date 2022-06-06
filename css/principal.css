@@ -126,7 +126,7 @@ header {
   position: fixed;
   z-index: 999;
   width: 100%;
-  background: #057405;
+  background: #e1f8e1;
   padding: 20px;
   color: white;
   top: 0; }
@@ -135,7 +135,7 @@ header {
   color: white; }
 
 .fotbar {
-  background-color: #dd5d26;
+  background-color: #e1f8e1;
   margin: 0px;
   padding: 0px;
   width: 100vw; }
