@@ -379,7 +379,7 @@ header {
 .navbar ul li a:hover {
   background-color: rgba(255, 255, 255, 0.664); }
 
-.container img {
+.animationlogo img {
   animation-name: animacion-uno;
   animation-iteration-count: initial;
   animation-timing-function: ease-in-out;
